@@ -47,6 +47,6 @@ CREATE TABLE [dbo].[stanze]
 (
 	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
 	[importo_totale] INT NOT NULL,
-	[importo pagato] INT NOT NULL,
+	[importo_pagato] INT NOT NULL,
 	[status] VARCHAR(30) NOT NULL
 )
