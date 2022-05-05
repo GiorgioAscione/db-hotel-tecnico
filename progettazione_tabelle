@@ -43,7 +43,7 @@ CREATE TABLE [dbo].[Table]
 )
 --------------------------------------------------------------
  tabella prenotazioni
-CREATE TABLE [dbo].[stanze]
+CREATE TABLE [dbo].[Table]
 (
 	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
 	[importo_totale] INT NOT NULL,
